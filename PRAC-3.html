@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicum 3A</title>
+</head>
+<body>   
+   <div align="center">
+        <a href="Prac-3.html"><b>Page 1: Reservations Form</b></a> | 
+        <a href="Prac(3B).html"><b>Page 2: Sign Up Form</b></a> | 
+        <a href="Prac(3C).html"><b>Page 3: Designer Application Form</b></a>
+
+  <hr>
+    <form>
+        <fieldset style=" border-color: red; width: 10cm; margin-left: 16cm;">
+            <h1 align="center">Reservations form</h1>
+            
+            <table  >
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" id="First Name" name="First Name" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" id="last-name" name="last_name" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Address</b></td>
+                </tr>
+                <tr>
+                    <td>Number & Street:</td>
+                    <td><input type="text" id="street" name="street" required></td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td><input type="text" id="city" name="city" required></td>
+                </tr>
+                <tr>
+                    <td>State:</td>
+                    <td><input type="text" id="state" name="state" required></td>
+                </tr>
+                <tr>
+                    <td>Zipcode:</td>
+                    <td><input type="text" id="zipcode" name="zipcode" required></td>
+                </tr>
+                <tr>
+                    <td>Check-in Date:</td>
+                    <td><input type="date" id="check-in" name="check_in" required></td>
+                </tr>
+                <tr>
+                    <td>Check-out Date:</td>
+                    <td><input type="date" id="check-out" name="check_out" required></td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td>
+                        <input type="tel" id="phone" name="phone" placeholder="(###) ###-####"  required maxlength="10">
+                        <b>(###) ###-####</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail Address:</td>
+                    <td><input type="email" id="email" name="email" placeholder="name@domain.com" required></td>
+                </tr>
+                <tr>
+                    <td>Payment Method:</td>
+                    <td><input type="text" id="payment-method" name="payment_method" required></td>
+                </tr>
+                <tr>
+                    <td>Card Number:</td>
+                    <td><input type="text" id="card-number" name="card_number" required></td>
+                </tr>
+                <tr>
+                    <td><b>Special Requests</b>:</td>
+                    <td><textarea id="special-requests" name="special_requests" placeholder="Enter your request here" cols="30" rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit"> 
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>

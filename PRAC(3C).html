@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicum 3B</title>
+</head>
+<body>  
+  <div align="center">
+        <a href="Prac-3.html"><b>Page 1: Reservations Form</b></a> | 
+        <a href="Prac(3B).html"><b>Page 2: Sign Up Form</b></a> | 
+        <a href="Prac(3C).html"><b>Page 3: Designer Application Form</b></a>
+
+  <hr>
+
+  
+    <form>
+        <fieldset style=" border-color: gold; width: 15cm; margin-left: 16cm;">
+            <h1 align="center">
+    <font color="red">TRENDHIVE</font>
+</h1>
+
+<h2 align="center">Designer’s Application Form</h2>
+
+<p align="center">
+    Join our marketplace and showcase your unique fashion designs.
+</p>
+            <table>
+
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" id="Name" name="Name" required></td>
+                </tr>
+             <tr>
+                <td>Brand Name:</td>
+               <td><input type= "text" id="Brand_Name" name="Brand_Name" required></td>
+               <tr>
+                      <td> Email:</td>
+                      <td><input type="email" id="Email" name="Email"  placeholder="name@domain.com" required></td>
+                
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" id="Password" name="password" required></td>
+                </tr>
+                     <tr>
+                    <td>Phone:</td>
+                    <td>
+                        <input type="tel" id="phone" name="phone" placeholder="(###) ###-####"  required maxlength="10">
+                      
+                    </td>
+              
+                                  <tr>
+                    <td>DOB:</td>
+                    <td><input type="date" id="DOB" name="DOB" required></td>
+                </tr>
+                                  <tr>
+                        
+                    <td><b>Gender</b></td>
+                  
+                    <td><input type="radio" id="gender" name="Gender" >male</td>
+                    <td><input type="radio" id="gender" name="Gender">female</td>
+                   
+                 </tr> 
+               <tr>
+              <td> Logo:</td>
+              <td><input type="file" id="Logo" name="Logo" accept="image/*"></td>
+            </tr>
+               <tr>
+                    <td>Designer type</td>
+               <td>
+                  <select id="Designer_type" name="Designer_type" required>
+                      <option> </option>
+                   <option>Clothing</option>
+                   <option>Accessory</option>
+                  <option>Jewelry</option>
+                    <option>Footwear</option>
+                       <option>Cosmetics</option>
+                     </select>
+                     </td>
+
+               
+          </tr>
+                  <tr>
+                    <td>Experience</td>
+               <td>
+                  <select id="Experience" name="Experience" required>
+                      <option> </option>
+                   <option>Beginner</option>
+                   <option>1-2 Years</option>
+                  <option>3-5 Years</option>
+                    <option>5+ Years</option>
+                </select>
+                 </td>
+
+               
+          </tr>
+                    <tr>
+              
+    <td>Fashion Style</td>
+    <td>
+        <input type="checkbox" name="style" value="casual"> Casual
+        <input type="checkbox" name="style" value="streetwear"> Streetwear
+        <input type="checkbox" name="style" value="ethnic"> Ethnic
+        <input type="checkbox" name="style" value="luxury"> Luxury
+    </td>
+</tr>
+
+                    </tr>  
+                    <tr>
+                         <td>About Yourself</td>
+                    <td>
+                        <textarea id="About_Yourself" name="About_Yourslef"  rows="5" cols"40"></textarea>
+               </td>
+
+                 <tr>
+                        <td>Portfolio url</td>
+                          <td><input type="url" id="Portfolio_url" name="Portfolio_url" placeholder="link to ur poerfolio"></td>
+                    </tr>
+                          <tr>
+                                  <td>Upload Portfolio</td>
+                                  <td><input type="file" id="Upload_Portfolio" name="portfolio_url" accept="image/*"></td>
+                               </tr>
+              
+
+
+                 
+                    <tr>
+                    <td> <input type="checkbox" id="terms and conditions" name="terms and conditions">terms and conditions</td>
+                 </tr>
+                  <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit"> 
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
